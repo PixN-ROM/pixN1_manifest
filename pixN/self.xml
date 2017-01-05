@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- My Repos -->
+<!-- Minimal Device -->
+<project path="kernel/sony/msm" name="HaoZeke/kernel" revision="7.0-opt" remote="github" />
+<project path="device/sony/common" name="HaoZeke/device_sony_common" groups="device" remote="github" revision="7.1.1-opt" />
+<project path="device/sony/kitakami" name="HaoZeke/device_sony_kitakami" groups="device" remote="github" revision="7.1.1-opt" />
+<project path="device/sony/sumire" name="HaoZeke/device_sony_sumire" groups="device" remote="github" revision="7.1.1-opt" />
+
+
+
+<project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixN" groups="pdk-cw-fs,pdk-fs" revision="7.0-opt" />
+
+
+<project path="vendor/pixN" name="vendor_pixN" groups="device" remote="pixN" />
+
+<!--<project path="system/core" name="system_core" groups="pdk" remote="pixN" />-->
+
+<project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="pixN" />
+<project path="packages/apps/PixNSettings" name="packages_apps_PixNSettings" remote="pixN" />
+<project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pixN" />
+<project path="frameworks/av" name="frameworks_av" remote="pixN" />
+</manifest>

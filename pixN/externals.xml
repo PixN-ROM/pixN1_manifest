@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+
+<!-- Android/External -->
+  <project path="external/jemalloc" name="AndroidExternal/jemalloc" groups="pdk" remote="github" revision="ng" />
+  <project path="external/libxml2" name="AndroidExternal/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" remote="github" revision="ng" />
+  <project path="external/libpng" name="AndroidExternal/libpng" groups="pdk" remote="github" revision="ng" />
+  <project path="external/sqlite" name="AndroidExternal/sqlite" groups="pdk" remote="github" revision="ng" />
+  <project path="external/freetype" name="AndroidExternal/freetype" groups="pdk" remote="github" revision="ng" />
+  <project path="external/fio" name="AndroidExternal/fio" groups="pdk-fs" remote="github" revision="ng" />
+  <project path="external/v8" name="AndroidExternal/v8" groups="pdk" remote="github" revision="ng" />
+  <project path="external/libvpx" name="AndroidExternal/libvpx" groups="pdk" remote="github" revision="ng" />
+
+
+<!-- BenzoRoms -->
+  <project path="external/chromium-webview" name="BenzoRoms/external_chromium-webview" groups="pdk" remote="github" revision="noneone" />
+
+<!-- QuantumDroid -->
+<project name="QuantumDroid/platform_system_tools_aidl" remote="github" revision="n7.1" path="system/tools/aidl" />
+
+</manifest>
