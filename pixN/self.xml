@@ -10,15 +10,15 @@
 
 
 
-<project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixN" groups="pdk-cw-fs,pdk-fs" revision="7.0-opt" />
+<!--<project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixN" groups="pdk-cw-fs,pdk-fs" revision="7.0-opt" />
 
 
 <project path="vendor/pixN" name="vendor_pixN" groups="device" remote="pixN" />
 
-<!--<project path="system/core" name="system_core" groups="pdk" remote="pixN" />-->
+<project path="system/core" name="system_core" groups="pdk" remote="pixN" />
 
 <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="pixN" />
 <project path="packages/apps/PixNSettings" name="packages_apps_PixNSettings" remote="pixN" />
 <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pixN" />
-<project path="frameworks/av" name="frameworks_av" remote="pixN" />
+<project path="frameworks/av" name="frameworks_av" remote="pixN" /> -->
 </manifest>
