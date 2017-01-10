@@ -542,7 +542,11 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
 
-<remote name="sony" fetch="https://github.com/sonyxperiadev/" />
+<remote name="sony" 
+        fetch="https://github.com/sonyxperiadev/" />
+  <remote  name="github"
+           fetch="https://github.com/" />
+
 <remove-project name="platform/hardware/qcom/camera" />
 <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="master" />
 <project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="master" />
@@ -555,4 +559,6 @@
 <project path="vendor/sony-oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
 <project path="packages/apps/ExtendedSettings" name="packages_apps_ExtendedSettings" groups="device" remote="sony" revision="master" />
 <project path="packages/apps/FMRadio" name="packages-apps-FMRadio" groups="device" remote="sony" revision="master" />
+  <include name="pixN/remotes.xml" />
+
 </manifest>
