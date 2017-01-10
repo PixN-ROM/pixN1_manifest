@@ -550,7 +550,7 @@
 <project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="master" />
 <project path="device/sony/kitakami" name="device-sony-kitakami" groups="device" remote="sony" revision="master" />
 <project path="device/sony/sumire" name="device-sony-sumire" groups="device" remote="sony" revision="master" />
-<project path="kernel/sony/msm" name="kernel" groups="device" remote="github" revision="HaoZeke/kernel" />
+<project path="kernel/sony/msm" name="HaoZeke/kernel" groups="device" remote="github" revision="7.0-opt" />
 <project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="master" />
 <project path="vendor/sony-oss/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
 <project path="vendor/sony-oss/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
